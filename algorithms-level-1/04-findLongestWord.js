@@ -1,6 +1,8 @@
 function findLongestWord(str) {
     //Return the length of the longest word in the provided sentence.
     //Your response should be a number.
+    // findLongestWord("May the force be with you") should return 5.
+    // findLongestWord("Google do a barrel roll") should return 6.
     var wordsArr = str.split(" ");
     console.log(wordsArr);
     var maxLength = 0;
